@@ -137,12 +137,14 @@ def run_experiment(config: ConfigModel, mock: bool):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Sample railway conflict management QUBO, optionally using mock simulator."
+    )
     parser.add_argument("config", help="Configuration file.")
     parser.add_argument(
         "--mock",
         help=(
-            "Use simulator for checking correctness. Warning: this will return random "
+            "Use mock simulator instead of real machine. Warning: this will return random "
             "results without using your time on D-Wave."
         ),
         action="store_true",

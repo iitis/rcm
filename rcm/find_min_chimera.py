@@ -8,7 +8,12 @@ from dwave_networkx import chimera_graph
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description=(
+            "Find minimum size (number of rows and columns) of a square Chimera lattice for which "
+            "given problem can be embedded."
+        )
+    )
     parser.add_argument("instance", type=argparse.FileType("r"))
     parser.add_argument(
         "--num-tries", type=int, default=10, help="Number of tries for minorminer runs"
