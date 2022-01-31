@@ -4,8 +4,7 @@ This repository contains code used for running experiments in the
 paper 
 
 Krzysztof Domino, Mátyás Koniorczyk, Krzysztof Krawiec, Konrad Jałowiecki, Sebastian Deffner, Bartłomiej Gardas
-Quantum annealing in the NISQ era: railway conflict management 
-[arxiv](https://arxiv.org/abs/2112.03674)
+*[Quantum annealing in the NISQ era: railway conflict management](https://arxiv.org/abs/2112.03674)*
 
 ## About
 
