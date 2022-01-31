@@ -75,8 +75,8 @@ input_file: qubo.txt                # Path (relative or absolute) to the instanc
 embedding_file: embedding.pickle    # Path to the embedding saved as pickle file
 # Embeddings should be saved as 
 output_dir: ./result                # Path (relative or absolute) where results should be saved
-chain_strength_scales: [ 2.0, 3.0 ]   # List of chain strength scales to use
-annealing_times: [ 5, 20 ]            # List of annealing time (in microseconds) to use
+chain_strength_scales: [ 2.0, 3.0 ] # List of chain strength scales to use
+annealing_times: [ 5, 20 ]          # List of annealing time (in microseconds) to use
 batch_size: 100                     # Batch size
 num_batches: 2                      # Number of batches
 ```
