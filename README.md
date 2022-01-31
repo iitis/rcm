@@ -1,6 +1,6 @@
 # RCM Railway Conflict Management using D-Wave
 
-This repository contains code used for running experiments in the
+This repository contains code used for running experiments described in the paper:
 paper 
 
 Krzysztof Domino, Mátyás Koniorczyk, Krzysztof Krawiec, Konrad Jałowiecki, Sebastian Deffner, Bartłomiej Gardas
