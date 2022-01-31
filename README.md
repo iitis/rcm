@@ -1,7 +1,6 @@
 # RCM Railway Conflict Management using D-Wave
 
-This repository contains code used for running experiments described in the paper:
-paper 
+This repository contains code used for running experiments described in the paper: 
 
 Krzysztof Domino, Mátyás Koniorczyk, Krzysztof Krawiec, Konrad Jałowiecki, Sebastian Deffner, Bartłomiej Gardas
 *[Quantum annealing in the NISQ era: railway conflict management](https://arxiv.org/abs/2112.03674)*
