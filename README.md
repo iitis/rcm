@@ -57,7 +57,8 @@ optional arguments:
 
 The configuration file describes the experiment. An example below (as well as
 the `example-config.yaml` file)
-show the expected file format. Please refer to the manuscript for the explanation of the terminology
+shows the expected file format. Please refer to the manuscript for the explanation of the 
+terminology
 used in comments.
 
 Experiments are run in *batches*, since D-Wave API has a limit on a single job duration. For
