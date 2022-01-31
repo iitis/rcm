@@ -1,0 +1,8 @@
+solver_name: DW_2000Q_6
+input_file: ./QUBOs/Qfile_short_15.0_7.txt
+embedding_file: ./embeddings/embedding-Qfile_short_15.0_7.pickle
+output_dir: ./result
+chain_strength_scales: [2.0, 3.0]
+annealing_times: [5, 20]
+batch_size: 100
+num_batches: 2
